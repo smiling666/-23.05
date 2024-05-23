@@ -1,0 +1,307 @@
+:root {
+	--header-text: #343d33;
+	--white: #fff;
+	--primary: #475f45;
+	--light-gray: #c4c4c4;
+	--text-body-copy: #414840;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul,li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    font-family: 'Comfortaa', sans-serif;
+     min-height: 100%;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100vh;
+    min-height: 650px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+width: 1400px;
+height: 88px;
+
+
+}
+
+
+.logo{
+    display: block;
+    width: 500px;
+    height: 150px;
+}
+
+.logo__title {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #475f45;
+}
+
+.logo__subtitle {  
+    font-weight: 400;
+    font-size: 20px;
+    color: #475f45;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 70px;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+
+}
+
+.nav__item {
+    padding-bottom: 6px;
+}
+
+
+.nav__link {
+    font-weight: 400;
+    font-size: 18px;
+    color:#475f45;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+
+.hero__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 460px;
+}
+
+.hero__desc .title {
+    margin-bottom: 42px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 52px;
+    max-width: 550px;
+    color: #475f45;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 30px;
+    color: #475f45;
+}
+
+.hero__paragraph {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 15px 45px;
+    display: inline-block; 
+    border: 4px solid ;
+    color: #475f45;
+    background-color:white;
+   
+}
+
+
+.hero__img-wrap {
+    margin-top: 100px;
+    border: 4px solid ;
+    color: #414840;
+    border-radius: 500px 500px 0 0;
+width: 490px;
+height: 670px;
+
+}
+.Discover{
+    font-family: 'Comfortaa', sans-serif;
+    min-height: 100vh;
+    background-color: #475f45;
+}
+.discover__container{
+    padding: 90px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.discover__contant{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+   column-gap: 50px;
+
+}
+.img-wrap{
+    width: 1032px;
+    height: 359px;
+}
+.text__section{
+    max-width: 500px;
+}
+.discover__tittle{
+    font-size: 52px;
+    color: white;
+    
+}
+.discover__subtittle{
+    padding: 10px;
+font-size: 25px;
+color: white;
+}
+.hero__btn{
+ margin-top: 20px;
+    color: white;
+    background-color: #475f45;
+   
+}
+
+.news {
+    font-family: 'Comfortaa', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+.section__title {
+    margin: 0 auto;
+    font-size: 47px;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #475f45;
+}
+.news__list {
+    display: flex;
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    column-gap: 50px;
+    overflow: scroll;
+}
+
+
+
+.updates {
+     width: 600px;
+    overflow: hidden;
+    border-radius: 9px ;
+    background: #fafafa;
+    align-items: center;
+    padding-bottom:30px ;
+    flex-shrink: 0;
+}
+
+.news__img-wrap {
+margin-bottom: 30px;
+
+
+overflow: hidden;
+transition: all 0.3s;
+}
+
+.plains__img {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.plains {
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.06em;
+    color: #475f45 ;
+    text-align: center;
+    margin-bottom: 30PX;
+    
+}
+
+.footer{
+    font-family: 'Comfortaa', sans-serif;
+    background:#475f45 ;
+    padding: 50px 0px;
+    color: #FFFFFF;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__user-name{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.copyright{
+    font-size: 20px;
+}
+.social{
+    display: flex;
+    column-gap: 30px;
+}
+
